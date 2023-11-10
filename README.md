@@ -1,6 +1,7 @@
 # YouTube-Data-Harvesting-and-Warehousing-using-SQL-MongoDB-and-Streamlit
 
-Problem Statement:
+**Problem Statement:**
+
  The problem statement is to create a Streamlit application that allows users to access and analyze data from multiple YouTube channels. 
 
 The application should have the following features:
@@ -10,7 +11,7 @@ The application should have the following features:
   4. Option to select a channel name and migrate its data from the data lake to a SQL database as tables.
   5. Ability to search and retrieve data from the SQL database using different search options, including joining tables to get channel details.
      
-Approach: 
+**Approach:** 
   1. Set up a Streamlit app: Streamlit is a great choice for building data visualization and analysis tools quickly and easily. You can use Streamlit to create a simple UI where users can enter a YouTube channel ID, view the channel details, and select channels to migrate to the data warehouse.
   2. Connect to the YouTube API: You'll need to use the YouTube API to retrieve channel and video data. You can use the Google API client library for Python to make requests to the API.
   3. Store data in a MongoDB data lake: Once you retrieve the data from the YouTube API, you can store it in a MongoDB data lake. MongoDB is a great choice for a data lake because it can handle unstructured and semi-structured data easily.
@@ -20,6 +21,6 @@ Approach:
 
 Overall, this approach involves building a simple UI with Streamlit, retrieving data from the YouTube API, storing it in a MongoDB data lake, migrating it to a SQL data warehouse, querying the data warehouse with SQL, and displaying the data in the Streamlit app.
 
-Results:
+**Results:**
 
 This project aims to develop a user-friendly Streamlit application that utilizes the Google API to extract information on a YouTube channel, stores it in a MongoDB database, migrates it to a SQL data warehouse, and enables users to search for channel details and join tables to view data in the Streamlit app.
