@@ -2,6 +2,8 @@
 
 **Linkedin URL:** https://www.linkedin.com/in/saravanan-b-241468269/details/projects/
 
+**Key Skills:** Python scripting, Data Collection, Streamlit, API integration, Data Management using SQL and NoSQL
+
 **Problem Statement:**
 
  The problem statement is to create a Streamlit application that allows users to access and analyze data from multiple YouTube channels. 
